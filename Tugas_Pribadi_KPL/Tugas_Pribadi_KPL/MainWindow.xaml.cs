@@ -40,7 +40,9 @@ namespace Tugas_Pribadi_KPL
         {
             string nama = Text_nama.Text;
             string halo = "halo ";
-            MessageBox.Show(halo+nama); 
+            string hasil = halo + nama;
+            Text_Hasil.Text = hasil;
+
         }
     }
 }
