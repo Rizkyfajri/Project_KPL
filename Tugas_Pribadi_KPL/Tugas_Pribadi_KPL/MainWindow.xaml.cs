@@ -20,8 +20,6 @@ namespace Tugas_Pribadi_KPL
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        public int Nama { get; set; }
         public MainWindow()
         {
             InitializeComponent();
@@ -41,9 +39,8 @@ namespace Tugas_Pribadi_KPL
         private void Button_process_Click(object sender, RoutedEventArgs e)
         {
             string nama = Text_nama.Text;
-            string halo = "halo";
-            string hasil = string.Concat(halo, nama);
-            MessageBox.Show(hasil);
+            string halo = "halo ";
+            MessageBox.Show(halo+nama); 
         }
     }
 }
